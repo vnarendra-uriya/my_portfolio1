@@ -1,0 +1,112 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fonts & Colors */
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    background: #222;
+    color: #fff;
+    padding: 1em 2em;
+    position: sticky;
+    top: 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #00adb5;
+  }
+  
+  section {
+    padding: 4em 2em;
+    text-align: center;
+  }
+  
+  #hero {
+    background: #00adb5;
+    color: #fff;
+    padding: 5em 2em;
+  }
+  
+  .project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+  }
+  
+  .project-card {
+    background: #fff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    max-width: 300px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    min-width: 600px;
+    max-width: 800px;
+    min-height: 200px;
+    max-height: 400px;
+    margin: auto;
+    gap: 1em;
+  }
+  
+  input, textarea {
+    padding: 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background: #00adb5;
+    color: white;
+    padding: 0.75em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .about-container{
+    text-align: center;
+  }
+  button:hover {
+    background: #007b8a;
+  }
+  
+  footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+  }
+    .btn{
+        text-decoration: none;
+    }  
